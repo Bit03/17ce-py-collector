@@ -24,14 +24,14 @@
 
 ## 文件结构
 
-- main（目录）：
-  - main.py：项目的入口文件，用于配置logging和注册定时任务
-  - settings.py：项目配置文件
-- jobs（目录）：
-  - Job_17ce.py：定时任务，通过utils目录中的文件，执行17ce的测速数据请求、处理以及写入数据库。
-- utils（目录）：
-  - data.py：用于处理websocket请求数据、websocket返回数据以及将返回数据写入influxdb数据库
-  - ws.py：用于生成websocket所需的url和ssl
+- main/
+  - main.py # 项目的入口文件，用于配置logging和注册定时任务
+  - settings.py # 项目配置文件
+- jobs/
+  - Job_17ce.py # 定时任务，通过utils目录中的文件，执行17ce的测速数据请求、处理以及写入数据库。
+- utils/
+  - data.py # 用于处理websocket请求数据、websocket返回数据以及将返回数据写入influxdb数据库
+  - ws.py # 用于生成websocket所需的url和ssl
 
 ## 部署方式
 
