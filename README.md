@@ -35,18 +35,20 @@
 
 ## 部署方式
 
-1. 设置环境变量：
-   - 17CE_USER：17ce的账户
-   - 17CE_API_PWD：17ce的api_pwd
-   - LOG_LEVEL：logging的通知级别（默认为info）
-   - 17CE_URL：测试的url（默认为"[https://www.chainnews.com](https://www.chainnews.com)"）
-   - INFLUXDB_HOST
-   - INFLUXDB_POST
-   - INFLUXDB_USER
-   - INFLUXDB_PWD
-   - INFLUXDB_NAME
+* 环境变量：
+  - 17CE_USER：17ce的账户
+  - 17CE_API_PWD：17ce的api_pwd
+  - LOG_LEVEL：logging的通知级别（默认为info）
+  - 17CE_URL：测试的url（默认为"[https://www.chainnews.com](https://www.chainnews.com)"）
+  - INFLUXDB_HOST
+  - INFLUXDB_POST
+  - INFLUXDB_USER
+  - INFLUXDB_PWD
+  - INFLUXDB_NAME
 
-2. 
+
+* docker running 
+
 ```
 docker build -t 17ce-py-collector .
 
