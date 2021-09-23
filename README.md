@@ -46,4 +46,10 @@
    - INFLUXDB_PWD
    - INFLUXDB_NAME
 
-2. docker run imageId python main/main.py
+2. 
+```
+docker build -t 17ce-py-collector .
+
+docker run 17ce-py-collector python main/main.py
+
+```
