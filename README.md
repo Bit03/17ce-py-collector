@@ -24,6 +24,7 @@
 
 ## 文件结构
 
+```shell
 - main/
   - main.py # 项目的入口文件，用于配置logging和注册定时任务
   - settings.py # 项目配置文件
@@ -32,6 +33,8 @@
 - utils/
   - data.py # 用于处理websocket请求数据、websocket返回数据以及将返回数据写入influxdb数据库
   - ws.py # 用于生成websocket所需的url和ssl
+```
+
 
 ## 部署方式
 
