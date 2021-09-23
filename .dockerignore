@@ -1,0 +1,6 @@
+.git/
+*.pyc
+
+.tox
+.coverage
+__pycache__
