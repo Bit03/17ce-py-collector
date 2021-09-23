@@ -9,13 +9,8 @@ RUN pip install setuptools==45
 COPY ./requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 
-
 COPY . /opt/Monitor
 WORKDIR /opt/Monitor
 
-
-
 # cleanup
 RUN rm -rf /var/lib/apt/lists/*
-
-
