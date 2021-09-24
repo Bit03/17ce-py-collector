@@ -6,8 +6,8 @@ ISP_PATH = f"{os.getcwd()}/settings/isp.json"
 CITY_PATH = f"{os.getcwd()}/settings/city.json"
 
 ##### 17ce账户
-USER = os.getenv("17CE_USER", default="jiaxin@bit03.com")
-API_PWD = os.getenv("17CE_API_PWD", default="5IELKINMGJO5FNFD")
+USER = os.getenv("17CE_USER", default=None)
+API_PWD = os.getenv("17CE_API_PWD", default=None)
 
 LOG_LEVEL = int(os.getenv("LOG_LEVEL", default=20))
 ##### 测试api相关变量
